@@ -36,4 +36,4 @@ chatbot_interface = gr.Interface(
     title=title_html,
     description=desc_html
 )
-chatbot_interface.launch(share=True)
+chatbot_interface.launch(share=True,port=10000)
